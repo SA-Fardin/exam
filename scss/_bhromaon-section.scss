@@ -1,0 +1,47 @@
+.bhromaon-section {
+	background-image: url(../images/bhromaon-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__info {
+		width: 355px;
+		margin: 0 auto;
+	}
+	&__title {
+		color: #ffffff;
+		padding-top: 271px;
+		letter-spacing: 1px;
+	}
+	&__subtitle {
+		color: #ffffff;
+		letter-spacing: 1px;
+	}
+	&__form {
+		width: 654px;
+		margin: 0 auto;
+	}
+	&__text-input {
+		width: 654px;
+		height: 60px;
+		display: block;
+		position: relative;
+		background-color: #ffffff;
+		border: none;
+		outline: none;
+	}
+	&__search-input {
+		width: 143px;
+		height: 52px;
+		position: absolute;
+		right: 435px;
+		bottom: 248px;
+		text-align: center;
+		border: none;
+		color: #ffffff;
+		outline: none;
+		background: url(../images/search-magni.png) #5474fd;
+		background-position: 90% 50%;
+		background-repeat: no-repeat;
+		background-size: content;
+	}
+}

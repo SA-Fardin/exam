@@ -589,6 +589,7 @@ th {
     margin: 0 auto;
     padding-bottom: 95px; }
   .our-tourist-section__description-title {
+    color: #ffffff;
     text-align: center; }
   .our-tourist-section__flex-container {
     display: -webkit-box;
@@ -611,6 +612,10 @@ th {
     padding-bottom: 46px;
     padding-left: 55px;
     padding-right: 55px; }
+  .our-tourist-section__description-subtitle {
+    color: #ffffff; }
+  .our-tourist-section__description-text {
+    color: #ffffff; }
 
 .footer-section {
   background-color: #232323; }
@@ -630,9 +635,15 @@ th {
   .footer-section__description-first-box {
     width: 256px; }
   .footer-section__description-title {
-    text-align: center; }
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px; }
   .footer-section__description-text {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff; }
   .footer-section__description-second-box {
     width: 256px;
     text-align: center; }

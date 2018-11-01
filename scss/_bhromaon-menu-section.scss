@@ -2,4 +2,24 @@
 .bhromaon-menu-section {
 	color: #e8e8e8;
 	background-color: #5474fd;
+	&__flex-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+		&__logo-title {
+			color: #ffffff;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 24px;
+			text-transform: uppercase;
+		}
+		&__links {
+			padding-right: 45px;
+			padding-left: 45px;
+			text-decoration: none;
+			color: #ffffff;
+			font-size: 14px;
+			font-family: 'aleoregular';
+			text-transform: uppercase;
+		}
 }

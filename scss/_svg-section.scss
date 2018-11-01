@@ -1,0 +1,14 @@
+.svg-section {
+	color: #e8e8e8;
+	background-color: #333333;
+	&__flex-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__details {
+		text-align: center;
+		padding-top: 95px;
+		padding-bottom: 95px;
+	}
+}

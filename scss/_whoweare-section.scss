@@ -1,0 +1,47 @@
+.whoweare-section {
+     background-image: url(../images/whoweare-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__flex-container {
+		display: flex;
+		padding-top: 120px;
+	}
+	&__description {
+		width: 537px;
+		height: 448px;
+	}
+	&__description-title {
+		color: #ffffff;
+		text-align: left;
+		font-size: 36px;
+		font-family: 'aleoregular';
+	}
+	&__description-text {
+		color: #e8e8e8;
+		text-align: left;
+		font-family: 'josefin_sansregular';
+		font-size: 16px;
+	}
+	&__description-button {
+		width: 225px;
+		height: 58px;
+		color: #ffffff;
+		background-color: #496bfe;
+		border: none;
+		outline: none;
+		font-size: 16px;
+		font-family: 'aleoregular';
+	}
+	&__graphics {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__home-img {
+		left: 0;
+	}
+	&__nature-img {
+        text-align: left;
+		}
+			
+}

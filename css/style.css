@@ -368,28 +368,57 @@ th {
     margin: 0 auto; }
   .bhromaon-section__title {
     color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    font-size: 48px;
     padding-top: 271px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-align: center; }
   .bhromaon-section__subtitle {
     color: #ffffff;
-    letter-spacing: 1px; }
+    font-family: 'josefin_sansregular';
+    letter-spacing: 5px;
+    margin-top: 9px;
+    font-size: 22px;
+    text-align: center; }
   .bhromaon-section__form {
     width: 654px;
     margin: 0 auto; }
-  .bhromaon-section__text-input {
-    width: 654px;
+  .bhromaon-section__search-input {
+    width: 402px;
     height: 60px;
+    padding-right: 126px;
+    padding-left: 126px;
     display: block;
     position: relative;
     background-color: #ffffff;
     border: none;
     outline: none; }
-  .bhromaon-section__search-input {
+    .bhromaon-section__search-input::-webkit-input-placeholder {
+      font-size: 14px;
+      font-family: 'josefin_sansregular';
+      letter-spacing: 3px; }
+    .bhromaon-section__search-input:-ms-input-placeholder {
+      font-size: 14px;
+      font-family: 'josefin_sansregular';
+      letter-spacing: 3px; }
+    .bhromaon-section__search-input::-ms-input-placeholder {
+      font-size: 14px;
+      font-family: 'josefin_sansregular';
+      letter-spacing: 3px; }
+    .bhromaon-section__search-input::placeholder {
+      font-size: 14px;
+      font-family: 'josefin_sansregular';
+      letter-spacing: 3px; }
+  .bhromaon-section__button {
     width: 143px;
-    height: 52px;
+    height: 58px;
+    font-size: 14px;
+    font-family: 'aleoregular';
     position: absolute;
-    right: 435px;
-    bottom: 248px;
+    margin-left: 508px;
+    margin-top: -60px;
     text-align: center;
     border: none;
     color: #ffffff;
@@ -402,6 +431,232 @@ th {
 .bhromaon-menu-section {
   color: #e8e8e8;
   background-color: #5474fd; }
+  .bhromaon-menu-section__flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .bhromaon-menu-section__logo-title {
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase; }
+  .bhromaon-menu-section__links {
+    padding-right: 45px;
+    padding-left: 45px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'aleoregular';
+    text-transform: uppercase; }
+
+.whoweare-section {
+  background-image: url(../images/whoweare-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .whoweare-section__flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 120px; }
+  .whoweare-section__description {
+    width: 537px;
+    height: 448px; }
+  .whoweare-section__description-title {
+    color: #ffffff;
+    text-align: left;
+    font-size: 36px;
+    font-family: 'aleoregular'; }
+  .whoweare-section__description-text {
+    color: #e8e8e8;
+    text-align: left;
+    font-family: 'josefin_sansregular';
+    font-size: 16px; }
+  .whoweare-section__description-button {
+    width: 225px;
+    height: 58px;
+    color: #ffffff;
+    background-color: #496bfe;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'aleoregular'; }
+  .whoweare-section__graphics {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .whoweare-section__home-img {
+    left: 0; }
+  .whoweare-section__nature-img {
+    text-align: left; }
+
+.svg-section {
+  color: #e8e8e8;
+  background-color: #333333; }
+  .svg-section__flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .svg-section__details {
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 95px; }
+
+.whatwedo-section {
+  background-image: url(../images/whatwedo-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .whatwedo-section__description {
+    margin-top: 228px;
+    margin-bottom: 99px;
+    width: 542px;
+    height: 369px;
+    padding: 30px;
+    background-color: #232323;
+    opacity: .8; }
+  .whatwedo-section__description-subtitle {
+    color: #ffffff;
+    text-align: left; }
+  .whatwedo-section__description-title {
+    color: #ffffff;
+    text-align: left; }
+  .whatwedo-section__description-text {
+    color: #ffffff;
+    text-align: left; }
+  .whatwedo-section__button {
+    width: 224px;
+    height: 59px;
+    color: #ffffff;
+    background-color: #5474fd;
+    border: none;
+    outline: none; }
+
+.travelwithus-section {
+  background-image: url(../images/traverwithus-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .travelwithus-section__description {
+    margin-top: 228px;
+    margin-bottom: 99px;
+    width: 542px;
+    height: 369px;
+    padding: 30px;
+    background-color: #232323;
+    margin-left: 500px; }
+  .travelwithus-section__description-subtitle {
+    color: #ffffff;
+    text-align: left; }
+  .travelwithus-section__description-title {
+    color: #ffffff;
+    text-align: left; }
+  .travelwithus-section__description-text {
+    color: #ffffff;
+    text-align: left; }
+  .travelwithus-section__button {
+    width: 224px;
+    height: 59px;
+    color: #ffffff;
+    background-color: #5474fd;
+    border: none;
+    outline: none; }
+
+.our-tourist-section {
+  background-image: url(../images/whatourtouristsa-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .our-tourist-section__container {
+    padding-top: 100px;
+    padding-bottom: 199px; }
+  .our-tourist-section__description {
+    width: 789px;
+    margin: 0 auto;
+    padding-bottom: 95px; }
+  .our-tourist-section__description-title {
+    text-align: center; }
+  .our-tourist-section__flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center; }
+  .our-tourist-section__description-img-box {
+    width: 447px;
+    height: 285px; }
+  .our-tourist-section__description-img {
+    width: 100%; }
+  .our-tourist-section__description-info-box {
+    width: 553px;
+    height: 189px;
+    padding-top: 50px;
+    padding-bottom: 46px;
+    padding-left: 55px;
+    padding-right: 55px; }
+
+.footer-section {
+  background-color: #232323; }
+  .footer-section__description {
+    width: 256px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    margin: 0 auto; }
+  .footer-section__description-first-box {
+    width: 256px; }
+  .footer-section__description-title {
+    text-align: center; }
+  .footer-section__description-text {
+    text-align: center; }
+  .footer-section__description-second-box {
+    width: 256px;
+    text-align: center; }
+  .footer-section__description-imgs {
+    margin-right: 9px;
+    margin-left: 9px; }
+
+@font-face {
+  font-family: 'aleoregular';
+  src: url("aleo-regular-webfont.woff2") format("woff2"), url("aleo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'josefin_sansbold';
+  src: url("josefinsans-bold-webfont.woff2") format("woff2"), url("josefinsans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'josefin_sansregular';
+  src: url("josefinsans-regular-webfont.woff2") format("woff2"), url("josefinsans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 body {
   padding: 15px; }
@@ -412,34 +667,3 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 10px; }
-
-.whoweare-section {
-  background-image: url(../images/whoweare-bg.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.svg-section {
-  color: #e8e8e8;
-  background-color: #333333; }
-
-.whatwedo-section {
-  background-image: url(../images/whatwedo-bg.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.travelwithus-section {
-  background-image: url(../images/traverwithus-bg.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.our-tourist-section {
-  background-image: url(../images/whatourtouristsa-bg.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.footer-section {
-  background-color: #232323; }

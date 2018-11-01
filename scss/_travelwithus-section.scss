@@ -1,0 +1,36 @@
+
+.travelwithus-section {
+	background-image: url(../images/traverwithus-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__description {
+		margin-top: 228px;
+		margin-bottom: 99px;
+		width: 542px;
+		height: 369px;
+		padding: 30px;
+		background-color: #232323;
+		margin-left: 500px;
+	}
+	&__description-subtitle {
+		color: #ffffff;
+		text-align: left;
+	}
+	&__description-title {
+		color: #ffffff;
+		text-align: left;
+	}
+	&__description-text {
+		color: #ffffff;
+		text-align: left;
+	}
+	&__button {
+		width: 224px;
+		height: 59px;
+		color: #ffffff;
+		background-color: #5474fd;
+		border: none;
+		outline: none;
+	}
+}

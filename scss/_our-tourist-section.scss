@@ -1,0 +1,43 @@
+
+
+.our-tourist-section {
+	background-image: url(../images/whatourtouristsa-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	&__container {
+		padding-top: 100px;
+		padding-bottom: 199px;
+	}
+	&__description {
+		width: 789px;
+		margin: 0 auto;
+		padding-bottom: 95px;
+	}
+	&__description-title {
+		text-align: center;
+	}
+	&__flex-container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	&__description-img-box {
+		width: 447px;
+		height: 285px;
+	}
+	&__description-img {
+		width: 100%;
+	}
+	&__description-info-box {
+		width: 553px;
+		height: 189px;
+		padding-top: 50px;
+		padding-bottom: 46px;
+		padding-left: 55px;
+		padding-right: 55px;
+	}
+	&__description-subtitle {
+		
+	}
+}

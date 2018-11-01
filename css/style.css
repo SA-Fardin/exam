@@ -527,8 +527,7 @@ th {
     width: 542px;
     height: 369px;
     padding: 30px;
-    background-color: #232323;
-    opacity: .8; }
+    background-color: rgba(35, 35, 35, 0.9); }
   .whatwedo-section__description-subtitle {
     color: #ffffff;
     text-align: left; }
